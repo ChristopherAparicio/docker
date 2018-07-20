@@ -12,6 +12,6 @@ func main() {
 }
 
 func helloWorld(r http.ResponseWriter, req *http.Request) {
-	fmt.Fprintf(r, "Hello World !")
+	fmt.Fprintf(r, "Hello Docker !")
 	return
 }
